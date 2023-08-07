@@ -2,7 +2,7 @@
 pragma solidity ^0.8.19;
 
 import {ERC20Mock} from "../lib/yield-utils-v2/src/mocks/ERC20Mock.sol";
-import {IERC20} from "../lib/forge-std/src/interfaces/IERC20.sol";
+import {IERC20} from "../lib/yield-utils-v2/src/token/IERC20.sol";
 
 contract ERC20Wrapper is ERC20Mock {
     //STATE VARS

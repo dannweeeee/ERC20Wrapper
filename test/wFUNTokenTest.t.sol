@@ -2,12 +2,11 @@
 pragma solidity ^0.8.19;
 
 import "../lib/forge-std/src/Test.sol";
-
 import "../src/FUNToken.sol";
 import "../src/ERC20Wrapper.sol";
 
 abstract contract StateFUNminted is Test {
-    
+    //IERC20 public immutable fun;
     FUNToken fun;
     ERC20Wrapper wfun;
     address user;
@@ -17,6 +16,7 @@ abstract contract StateFUNminted is Test {
     event Unwrap(address indexed from, uint amount);
 
     function setUp() public virtual {
+        //fun = IERC20(user);
         fun = new FUNToken();
         wfun = new ERC20Wrapper(fun, "Wrapped FUN", "wFUN");
 
