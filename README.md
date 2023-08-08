@@ -16,4 +16,4 @@ Users can exchange ERC20 TokenA for ERC20 TokenB via a contract called Wrapper. 
 Ether is not an ERC-20 token, while being the native token for Ethereum. This forces all platforms to implement Ether as an edge case. 
 
 #### Objectives
-Code a Wrapper that takes Ether as it's currency.
+1. Code a Wrapper that takes Ether as it's currency.
