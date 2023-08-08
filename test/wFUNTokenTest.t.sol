@@ -1,9 +1,10 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.19;
 
-import "../lib/forge-std/src/Test.sol";
-import "../src/FUNToken.sol";
-import "../src/ERC20Wrapper.sol";
+import {Test} from "../lib/forge-std/src/Test.sol";
+import {console2} from "../lib/forge-std/src/console2.sol";
+
+import {ERC20Wrapper} from "../src/ERC20Wrapper.sol";
 
 abstract contract StateFUNminted is Test {
     //IERC20 public immutable fun;
