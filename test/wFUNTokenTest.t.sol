@@ -5,6 +5,7 @@ import {Test} from "../lib/forge-std/src/Test.sol";
 import {console2} from "../lib/forge-std/src/console2.sol";
 
 import {ERC20Wrapper} from "../src/ERC20Wrapper.sol";
+import {FUNToken} from "../src/FUNToken.sol";
 
 abstract contract StateFUNminted is Test {
     //IERC20 public immutable fun;
